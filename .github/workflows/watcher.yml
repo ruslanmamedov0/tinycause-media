@@ -2,6 +2,10 @@ name: Gözətçi (Instagram + YouTube şərhi)
 
 on:
   workflow_dispatch:
+    inputs:
+      saat:
+        description: "Neçə saat oyaq qalsın (sınaq üçün kiçik)"
+        default: "5.6"
   schedule:
     - cron: "17 */3 * * *"   # yalnız ehtiyat: gözətçi zənciri qırılsa yenidən başladır (adətən işləyən gözətçi var)
 
@@ -32,4 +36,5 @@ jobs:
           YT_WRITE: ${{ secrets.YT_WRITE }}
           CLOUD_SECRET: ${{ secrets.CLOUD_SECRET }}
           GH_TOKEN: ${{ github.token }}
+          WATCH_HOURS: ${{ inputs.saat || '5.6' }}
         run: python -u watcher.py
