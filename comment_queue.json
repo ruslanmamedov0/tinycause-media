@@ -1,0 +1,58 @@
+[
+ {
+  "id": "mikrodalga_en",
+  "channel": "steelmind",
+  "video": "bl-YXoVBXYs",
+  "at_baku": "2026-11-27T14:00:00+04:00",
+  "text": "The first Radaranges didn't go to homes — they went to restaurants and ships. It took 20 years to reach your kitchen. Which everyday object should we trace back next?",
+  "done": "2026-11-27 11:00Z ok: UgzNyVdd5mG_cVunLw54AaABAg"
+ },
+ {
+  "id": "boykot_tr",
+  "channel": "kucuksebep",
+  "video": "S_oImJdRq28",
+  "at_baku": "2026-11-27T18:02:00+04:00",
+  "text": "Bu kelime kısa sürede Fransızcaya, Almancaya, Rusçaya ve Türkçeye de geçti. Sıradaki videoda hangi kelimenin hikâyesini anlatalım?",
+  "done": "2026-11-27 14:03Z ok: UgyMu-e8DuPviK5ZMb14AaABAg"
+ },
+ {
+  "id": "boykot_en",
+  "channel": "steelmind",
+  "video": "J5o8TUrZCWI",
+  "at_baku": "2026-11-27T18:02:00+04:00",
+  "text": "The word quickly spread into French, German, Russian and many other languages. Which everyday word should we trace next?",
+  "done": "2026-11-27 14:03Z ok: Ugz65BAH9qN8JwF5fnF4AaABAg"
+ },
+ {
+  "id": "dolar_tr",
+  "channel": "kucuksebep",
+  "video": "gg45Th3h4oA",
+  "at_baku": "2026-11-28T15:32:00+04:00",
+  "text": "Aynı vadi yüzyıllar sonra bir kez daha tarihe geçti: Marie Curie radyumu bu vadinin madeninden çıkan cevherle keşfetti. Sıradaki videoda hangi kelimenin hikâyesini anlatalım?",
+  "done": "2026-11-28 11:52Z ok: Ugw7IMqmo-L1hA6pom14AaABAg"
+ },
+ {
+  "id": "dolar_en",
+  "channel": "steelmind",
+  "video": "fSaHqQyGqFU",
+  "at_baku": "2026-11-28T16:02:00+04:00",
+  "text": "The same valley made history again centuries later: Marie Curie discovered radium using ore from its mines. Which everyday word should we trace next?",
+  "done": "2026-11-28 12:02Z ok: UgyIgr5DhcG3rPZ5pBB4AaABAg"
+ },
+ {
+  "id": "audi_tr",
+  "channel": "kucuksebep",
+  "video": "s47J31rSqHU",
+  "at_baku": "2026-11-29T15:32:00+04:00",
+  "text": "Horch sonunda kendi adına geri döndü: Auto Union'daki dört şirketten biri onun eski şirketi Horch'tu. Sıradaki videoda hangi markanın hikâyesini anlatalım?",
+  "done": null
+ },
+ {
+  "id": "audi_en",
+  "channel": "steelmind",
+  "video": "xiQDlRJ4gGk",
+  "at_baku": "2026-11-29T16:02:00+04:00",
+  "text": "Horch got his name back in the end: one of the four companies in Auto Union was his old firm, Horch. Which brand should we trace next?",
+  "done": null
+ }
+]

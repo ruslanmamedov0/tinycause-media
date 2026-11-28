@@ -1,0 +1,35 @@
+name: Gözətçi (Instagram + YouTube şərhi)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */3 * * *"   # yalnız ehtiyat: gözətçi zənciri qırılsa yenidən başladır (adətən işləyən gözətçi var)
+
+concurrency:
+  group: watcher
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # state/ qovluğunu push etmək
+  actions: write    # özünü yenidən işə salmaq (workflow_dispatch)
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: |
+          git config user.name "shorts-watcher"
+          git config user.email "shorts-watcher@users.noreply.github.com"
+      - name: Gözətçi
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          YT_WRITE: ${{ secrets.YT_WRITE }}
+          CLOUD_SECRET: ${{ secrets.CLOUD_SECRET }}
+          GH_TOKEN: ${{ github.token }}
+        run: python -u watcher.py
